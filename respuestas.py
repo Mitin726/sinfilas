@@ -5,7 +5,7 @@ def construir_respuesta(intent: str, medicamento_encontrado: dict | None, nombre
     """
     if intent == "saludo":
         return (
-            "¡Hola! 👋 Soy el bot de disponibilidad de medicamentos.\n"
+            "¡Hola! 👋 Soy Alba, tu bot de disponibilidad de medicamentos.\n"
             "Preguntame algo como: '¿tienen ibuprofeno?' o 'cuánto cuesta el acetaminofén'."
         )
 

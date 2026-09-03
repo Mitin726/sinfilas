@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "¡Hola! Soy el bot de disponibilidad de medicamentos 💊\n"
+        "¡Hola! Soy Alba, tu bot de disponibilidad de medicamentos 💊\n"
         "Preguntame algo como: '¿tienen ibuprofeno?'"
     )
 
